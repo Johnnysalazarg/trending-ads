@@ -1,0 +1,91 @@
+@import "tailwindcss";
+
+:root {
+  --background: #170529;
+  --foreground: #f7f2f9;
+
+  /* Brand palette (Trending ADS) */
+  --brand-950: #170529;
+  --brand-900: #1c0a2e;
+  --brand-800: #271539;
+  --brand-700: #501f5a;
+  --brand-500: #915ba4;
+  --brand-400: #c2649b;
+  --brand-300: #e783b5;
+
+  --ink-secondary: #b6a3c2;
+  --ink-muted: #8a7794;
+  --border-subtle: rgba(145, 91, 164, 0.28);
+  --whatsapp: #25d366;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  --color-brand-950: var(--brand-950);
+  --color-brand-900: var(--brand-900);
+  --color-brand-800: var(--brand-800);
+  --color-brand-700: var(--brand-700);
+  --color-brand-500: var(--brand-500);
+  --color-brand-400: var(--brand-400);
+  --color-brand-300: var(--brand-300);
+
+  --color-ink-secondary: var(--ink-secondary);
+  --color-ink-muted: var(--ink-muted);
+  --color-border-subtle: var(--border-subtle);
+  --color-whatsapp: var(--whatsapp);
+
+  --font-display: "Montserrat", sans-serif;
+  --font-body: "Inter", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+}
+
+.font-display {
+  font-family: "Montserrat", "Inter", sans-serif;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Marquee for the "trusted by" ticker */
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+.animate-marquee {
+  animation: marquee 32s linear infinite;
+}
+
+/* Visible keyboard focus (accessibility floor) */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid var(--brand-300);
+  outline-offset: 3px;
+}
