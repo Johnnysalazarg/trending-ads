@@ -131,7 +131,7 @@ export const testimonials: Testimonial[] = [
     quote:
       "Hola Francerys ✨️Valoro la creatividad y la calidad técnica de los videos que estás produciendo, los cuales están alineados con la visión de la marca. Gracias por mantener este estándar de trabajo; sigamos avanzando ✨.",
     name: "María Alejandra",
-    role: "CEO, Limpiezas MAG",
+    role: "CEO, Limpieza MAG",
   },
   {
     quote:
