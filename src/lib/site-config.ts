@@ -137,7 +137,7 @@ export const testimonials: Testimonial[] = [
     quote:
       "Mi experiencia ha sido muy grata con la empresa, ya que me costaba mucho hacer vídeos en las redes. Para mi expresarme era sumamente complicado y con ellos he sentido tranquila y confianza, no solamente es grabar ellos nos apoyan en la logística y los guiones. Lo mejor de todo es que tienen toda la paciencia del mundo para que tu vida en las redes sea un éxito 🙌. Los recomiendo ✨️👏🤗.",
     name: "Daniela Martínez",
-    role: "Asesora Inmobiliaria , Franquicia Rent-A-House Pampatar",
+    role: "Asesora Inmobiliaria , Rent-A-House",
   },
   {
     quote:
