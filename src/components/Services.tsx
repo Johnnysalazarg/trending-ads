@@ -23,7 +23,7 @@ export default function Services() {
                 key={service.title}
                 className="rounded-2xl border border-border-subtle bg-brand-900/50 p-7"
               >
-                <div className="mb-5 flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-to-br from-brand-300/20 to-brand-700/20 text-brand-300">
+                <div className="mb-5 flex h-12 w-12 items-center justify-center rounded-xl bg-linear-to-br from-brand-300/20 to-brand-700/20 text-brand-300">
                   <Icon className="h-6 w-6" />
                 </div>
                 <h3 className="text-lg font-semibold text-foreground">

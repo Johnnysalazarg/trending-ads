@@ -30,7 +30,7 @@ export default function Testimonials() {
                 “{t.quote}”
               </p>
               <footer className="mt-6 flex items-center gap-3 pt-4">
-                <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-brand-500 to-brand-900 text-xs font-bold text-white">
+                <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-linear-to-br from-brand-500 to-brand-900 text-xs font-bold text-white">
                   {initials(t.name)}
                 </div>
                 <div>

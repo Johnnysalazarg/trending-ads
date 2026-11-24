@@ -130,20 +130,20 @@ export const testimonials: Testimonial[] = [
   {
     quote:
       "Hola Francerys ✨️Valoro la creatividad y la calidad técnica de los videos que estás produciendo, los cuales están alineados con la visión de la marca. Gracias por mantener este estándar de trabajo; sigamos avanzando ✨.",
-    name: "Nombre Apellido",
-    role: "Dueña, Limpiezas MAG",
+    name: "María Alejandra",
+    role: "CEO, Limpiezas MAG",
   },
   {
     quote:
       "Mi experiencia ha sido muy grata con la empresa, ya que me costaba mucho hacer vídeos en las redes. Para mi expresarme era sumamente complicado y con ellos he sentido tranquila y confianza, no solamente es grabar ellos nos apoyan en la logística y los guiones. Lo mejor de todo es que tienen toda la paciencia del mundo para que tu vida en las redes sea un éxito 🙌. Los recomiendo ✨️👏🤗.",
     name: "Daniela Martínez",
-    role: "CEO, [Negocio de ejemplo]",
+    role: "Asesora Inmobiliaria , Franquicia Rent-A-House Pampatar",
   },
   {
     quote:
       "Estamos muy satisfechos y complacidos por toda la labor que ha realizado la Agencia Trending.ads y su CEO Ing. Francerys Marcano. Ya tenemos 1 año trabajando juntos y nuestras Redes Sociales han crecido exponencialmente. Agradecidos por tan impecable trabajo de Social Media. Recomendados 💯.",
-    name: "Nombre Apellido",
-    role: "Marketing, [Negocio de ejemplo]",
+    name: "Michelle de Rondón",
+    role: "CEO y Arquitecta, Rondón and Partners",
   },
 ];
 
